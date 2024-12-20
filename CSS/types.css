@@ -1,0 +1,48 @@
+/* *{
+    color: red;
+    font-size: larger;
+} */
+
+h3 {
+    color: aqua;
+    background-color: green;
+    font-size: 40px;
+
+}
+
+.header_1{
+    color: brown;
+    background-color: black;
+    font-size: 60px;
+}
+
+.header_2{
+    color: white;
+    background-color: orangered;
+    font-size: 40px;
+}
+
+.para{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#welcome{
+    color: blue;
+    background-color: gray;
+    font-size: 40px;
+}
+
+#select{
+    color: orange;
+    background-color: black;
+    font-size: 30px;
+}
+
+#check{
+    color: black;
+    background-color: red;
+    font-size: large;
+    font-weight: 800;
+}

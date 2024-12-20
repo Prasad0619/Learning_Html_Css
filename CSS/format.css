@@ -1,0 +1,29 @@
+.Uppercase{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-shadow: 5px 5px 6px orangered, 4px 4px 6px blue; 
+}
+.Lowercase{
+    color: brown;
+    text-transform: lowercase;
+    word-spacing: 40px;
+}
+.capitalize{
+    color: blue;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.overline{
+    text-decoration: overline;
+}
+.underline{
+    text-decoration: underline;
+}
+.decor{
+    text-decoration: overline underline line-through;
+    font-size: 20px;
+}
+.para{
+    text-indent: 100px;
+    font-size: 20px;
+}
