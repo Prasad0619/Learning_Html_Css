@@ -1,0 +1,27 @@
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.d_shadow_original{
+    box-shadow: 3px 4px 4px red;
+}
+.d_shadow{
+    filter: drop-shadow(3px 4px 4px rgb(51, 255, 0));
+}
+.s_shadow{
+    filter: drop-shadow(3px 4px 4px rgb(51, 255, 0));  
+}
+.s_shadow_original{
+    box-shadow: 3px 4px 4px red;
+}
+.LE1{
+    border-radius: 30px;
+}
+.LE2{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.LE3{
+    border-radius: 20px 40px 60px 80px;
+}

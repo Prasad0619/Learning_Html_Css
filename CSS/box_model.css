@@ -1,0 +1,32 @@
+.Padd{
+    border: 3px solid blue;
+}
+.Padding1{
+    border: 3px solid red;
+    padding: 30px;
+    margin: 50px;
+}
+.Padding2{
+    border: 3px solid green;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 30px 0px 30px;
+}
+/* body{
+    background-image: url("/Images/SM\ icons.jpg");
+    background-color: red;
+    background-repeat: no-repeat; 
+    background-size: cover;
+} */
+ div{
+    height: 500px;
+ }
+ #div1{
+    background-image: linear-gradient(to right, black ,red , rgb(255, 94, 0),red, black);
+ }
+ #div2{
+    background-image: radial-gradient(circle, black , red, rgb(255, 94, 0), red,black);
+ }
+ #div3{
+    /* background-image: conic-gradient(black 0deg,black 70deg,red 70deg,red 140, rgb(255, 94, 0) 140deg, rgb(255, 94, 0) 210deg,red 210deg,red 280deg, black 280deg,black 360deg); */
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+ }
