@@ -1,0 +1,108 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    animation: Brownboy;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes Brownboy{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: green;
+        left: 80vw;
+        top: 0;
+    }
+    50%{
+        background-color: orangered;
+        left: 80vw;
+        top: 60vh;
+    }
+    75%{
+        background-color: blue;
+        left: 0;
+        top: 60vh;
+    }
+    100%{
+        background-color: blueviolet;
+        left: 0;
+        top: 0;
+    }
+}
+.animation-text{
+    position: relative;
+    /* left: 500px; */
+    top: 20px;
+    font-size: 60px;
+    font-weight: 900;
+    background-color: black;
+    background: linear-gradient(to right, black , red , orangered);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform-origin: bottom;
+    -webkit-transform: rotateX(-100deg);
+    animation: Brownboy2 10s infinite;
+}
+@keyframes Brownboy2{
+    0%{
+        transform: rotateY(-360deg);
+    }
+    50%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(-360deg);
+    }
+}
+#txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3.5px;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-perspective: 100px;
+}
+#txt b{
+    height: 50;
+    box-shadow: 0px 3px 4px grey;
+    color: grey;
+    background-color: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform-origin: bottom;
+    -webkit-transform: rotateX(-100deg);
+    animation: Brownboy3 7s infinite;
+}
+#txt>b:nth-child(2){
+    animation-delay: 1s;
+}
+#txt>b:nth-child(3){
+    animation-delay: 2s;
+}
+#txt>b:nth-child(4){
+    animation-delay: 3s;
+}
+#txt>b:nth-child(5){
+    animation-delay: 4s;
+}
+#txt>b:nth-child(6){
+    animation-delay: 5s;
+}
+
+@keyframes Brownboy3{
+    10%,50%{
+        transform: rotateX(0);
+    }
+    0%,60%,100%{
+        transform: rotateX(-100deg);
+    }
+}

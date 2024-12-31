@@ -46,3 +46,15 @@ h3 {
     font-size: large;
     font-weight: 800;
 }
+p:first-child{
+    background-color: black;
+    color: orangered;
+}
+p{ 
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    outline: 3px solid black;
+    outline-offset: 5px;
+    border-radius: 10px;
+}

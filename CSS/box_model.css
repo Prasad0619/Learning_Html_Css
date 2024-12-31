@@ -27,6 +27,6 @@
     background-image: radial-gradient(circle, black , red, rgb(255, 94, 0), red,black);
  }
  #div3{
-    /* background-image: conic-gradient(black 0deg,black 70deg,red 70deg,red 140, rgb(255, 94, 0) 140deg, rgb(255, 94, 0) 210deg,red 210deg,red 280deg, black 280deg,black 360deg); */
-    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    /* background-image: conic-gradient(black 0deg, black 60deg, red 60deg, red 120deg, orange 120deg, orange 180deg, yellow 180deg, yellow 240deg, green 240deg, green 300deg, blue 300deg); */
+    background-image: conic-gradient(black 45deg, red 90deg, blue 220deg, yellow 240deg, green 360deg);  
  }

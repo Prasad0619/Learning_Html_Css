@@ -4,16 +4,16 @@ img{
 }
 
 .d_shadow_original{
-    box-shadow: 3px 4px 4px red;
+    box-shadow: 3px 4px 20px red inset;
 }
 .d_shadow{
-    filter: drop-shadow(3px 4px 4px rgb(51, 255, 0));
+    filter: drop-shadow(3px 4px 4px red);
 }
 .s_shadow{
-    filter: drop-shadow(3px 4px 4px rgb(51, 255, 0));  
+    filter: drop-shadow(3px 4px 4px blue);  
 }
 .s_shadow_original{
-    box-shadow: 3px 4px 4px red;
+    box-shadow: 3px 4px 4px blue;
 }
 .LE1{
     border-radius: 30px;
@@ -24,4 +24,25 @@ img{
 }
 .LE3{
     border-radius: 20px 40px 60px 80px;
+}
+.box{
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 25px;
+}
+.le4{
+    border-radius: 25px;
+}
+.cap{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2px;
+}
+button{
+    color: gray;
+    position: relative;
+    border-radius: 25px;
+    position: relative;
+    left: 95px;
 }
