@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotate3d with Different Axes Example</title>
+    <style>
+        .container {
+            perspective: 800px; /* Sets the perspective distance */
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            transform: rotate3d(1, 0, 0, 0deg); /* Initial rotation around X-axis */
+            transition: transform 1s;
+            margin: 20px;
+        }
+        .box.rotateY {
+            transform: rotate3d(0, 1, 0, 0deg); /* Initial rotation around Y-axis */
+        }
+        .box.rotateZ {
+            transform: rotate3d(0, 0, 1, 0deg); /* Initial rotation around Z-axis */
+        }
+        .container:hover .box {
+            transform: rotate3d(1, 0, 0, 45deg); /* Rotate 45 degrees around X-axis */
+        }
+        .container:hover .box.rotateY {
+            transform: rotate3d(0, 1, 0, 45deg); /* Rotate 45 degrees around Y-axis */
+        }
+        .container:hover .box.rotateZ {
+            transform: rotate3d(0, 0, 1, 45deg); /* Rotate 45 degrees around Z-axis */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box rotateY"></div>
+        <div class="box rotateZ"></div>
+    </div>
+</body>
+</html>
